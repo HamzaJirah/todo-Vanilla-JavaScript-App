@@ -14,4 +14,7 @@ while(input !== "quit"){
   else if(input === "new") {
     addTodo();
   } 
+  else if (input === "delete"){
+    deleteTodo();
+  }
 }
