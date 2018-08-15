@@ -31,3 +31,13 @@ function listTodos(){
   });
   console.log("**********")
 }
+
+// Write a Function to add todo
+
+function addTodo(){
+  //ask for new todo
+  var newTodo = prompt("Enter new todo");
+  //add to todos array
+  todos.push(newTodo);
+  console.log("Added Todo");
+}
