@@ -6,6 +6,6 @@ var toDos = ["Teach Bootstrap"];
 var input = prompt("What would you like to do?");
 
 //Control flow
-while(){
-  
+while(input !== "quit"){
+
 }
