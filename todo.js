@@ -41,3 +41,14 @@ function addTodo(){
   todos.push(newTodo);
   console.log("Added Todo");
 }
+
+// Create a delete Todo function
+
+function deleteTodo(){
+  //ask for index of todo to be deleted
+  var index = prompt("Enter index of todo to delete");
+  //delete that todo
+  //splice()
+  todos.splice(index, 1);
+  console.log("Deleted Todo");
+}
