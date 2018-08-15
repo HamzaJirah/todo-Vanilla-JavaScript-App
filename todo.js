@@ -21,3 +21,13 @@ while(input !== "quit"){
   input = prompt("what would you like to do?");
 }
 console.log("OK, YOU QUIT THE APP");
+
+//Create a Function to List Todos
+
+function listTodos(){
+  console.log("**********")
+  todos.forEach(function(todo, i){
+  console.log(i + ": " + todo);
+  });
+  console.log("**********")
+}
