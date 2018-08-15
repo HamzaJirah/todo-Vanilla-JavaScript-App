@@ -2,3 +2,4 @@
 
 ## enter "new" without the quotes to add todo
 ## enter "list" without the qoutes to list todo
+## enter "quit" without the qoutes to quit game
