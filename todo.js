@@ -11,4 +11,7 @@ while(input !== "quit"){
   if(input === "list") {
     listTodos();
   } 
+  else if(input === "new") {
+    addTodo();
+  } 
 }
